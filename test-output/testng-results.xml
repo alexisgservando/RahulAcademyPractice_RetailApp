@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="18" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-14T13:38:58 CST" name="Default suite" finished-at="2023-07-14T13:39:09 CST" duration-ms="10849">
+    <groups>
+    </groups>
+    <test started-at="2023-07-14T13:38:58 CST" name="Default test" finished-at="2023-07-14T13:39:09 CST" duration-ms="10849">
+      <class name="tests.LoginPractice">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPractice@8f2ef19]" started-at="2023-07-14T13:38:58 CST" name="setUp" finished-at="2023-07-14T13:39:03 CST" duration-ms="4913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC02()[pri:0, instance:tests.LoginPractice@8f2ef19]" started-at="2023-07-14T13:39:03 CST" name="TC02" description="Login test | Role: Admin | Happy path with valid credentials" finished-at="2023-07-14T13:39:08 CST" duration-ms="5581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method signature="TC14()[pri:0, instance:tests.LoginPractice@8f2ef19]" started-at="2023-07-14T13:39:08 CST" name="TC14" description="TC02 runs first | Add 3 products to cart: iPhone X, Samsung Note 8, Blackberry" finished-at="2023-07-14T13:39:09 CST" depends-on-methods="tests.LoginPractice.TC02" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPractice@8f2ef19]" started-at="2023-07-14T13:39:09 CST" name="tearDown" finished-at="2023-07-14T13:39:09 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
