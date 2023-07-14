@@ -212,7 +212,7 @@ public class LoginPractice
 	@AfterTest
 	public void tearDown()
 	{
-		//driver.quit();
-		//driver.close();
+		driver.quit();
+		driver.close();
 	}
 }
